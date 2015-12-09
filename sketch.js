@@ -12,7 +12,7 @@ function setup() {
   myCanvas = createCanvas(windowWidth, windowHeight);
     
 pot = loadImage("img/pot.png");
-  lobster = loadImage("img/lobster.png");
+  lobster = loadImage("img/mfcgrp/lobster/blob/master/img/lobster.png");
   //create the sprites
  	potSprite = createSprite(600, 200, 150, 400);
 	potSprite.addImage(pot);

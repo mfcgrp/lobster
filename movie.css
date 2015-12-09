@@ -1,0 +1,196 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration:none;
+	color:#FFC0CB;
+}		
+.nav {
+	height: 100px;
+	width: 100%;
+	margin: 30px 0 0 0;
+	text-align: center;
+}
+
+.nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.nav ul li {
+	display: inline-block;
+}
+
+.nav ul li  {
+	display: inline-block;
+	height: 120px;
+	width: 120px;
+	background: #F08080;
+	color: #A0522D;
+	font-family: chiller;
+	font-size: 22px;
+	padding-top: 40px;
+	border: 5px solid #d1d1d1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.nav ul li:hover, .nav ul li:active, .nav ul li:focus{
+	-moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+body 
+{ background-image: url("pic/cupcake.jpg") ;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+h1
+{        font-family: Jokerman; 
+         font-size: 60pt;
+         font-weight: bold;		 
+		 text-align: center; 
+		 color: #1E90FF;
+		 text-shadow: 3px 3px 3px #808080;
+}
+
+div, ul, li, img {
+  box-sizing: border-box;
+}
+
+.gallery {
+  width: 880px;
+  overflow: hidden;
+  border: hidden;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 20px;
+  background-image: radial-gradient(#aaaaaa 0%, #E0FFFF 50%, #87CEFA 50%);
+}
+
+.gallery-images {
+  width: 13920px;
+  text-align: left;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  transition: left 0.5s;
+}
+
+.gallery-item {
+  display: inline;
+}
+.gallery-item img {
+  width: 750px;
+  height: 540px;
+  padding: 0px;
+  margin: 10px 0;
+  border: hidden;
+  cursor: pointer;
+}
+.gallery-item:not(:first-child) img {
+  margin-left: 10px;
+}
+.gallery-item:first-child img {
+  margin-left: 20px;
+}
+
+.gallery input {
+  display: none;
+}
+
+.gallery input + label {
+  background-color: #87CEFA;
+  height:12px;
+  width: 46px;
+  display: inline-block;
+  border: 1px solid #E0FFFF;
+  cursor: pointer;
+  transition: all 0.5s;
+  
+}
+.gallery input + label:hover {
+  box-shadow: 0 0 3px 0 #555;
+}
+
+.gallery input:checked + label {
+  background-color: #f1f1f1;
+}
+
+.gallery #ind-1:checked ~ .gallery-images {
+  left: 0;
+}
+
+.gallery #ind-2:checked ~ .gallery-images {
+  left: -760px;
+}
+
+.gallery #ind-3:checked ~ .gallery-images {
+  left: -1520px;
+}
+
+.gallery #ind-4:checked ~ .gallery-images {
+  left: -2280px;
+}
+
+.gallery #ind-5:checked ~ .gallery-images {
+  left: -3040px;
+}
+
+.gallery #ind-6:checked ~ .gallery-images {
+  left: -3800px;
+}
+
+.gallery #ind-7:checked ~ .gallery-images {
+  left: -4560px;
+}
+
+.gallery #ind-8:checked ~ .gallery-images {
+  left: -5320px;
+}
+
+.gallery #ind-9:checked ~ .gallery-images {
+  left: -6080px;
+}
+
+.gallery #ind-10:checked ~ .gallery-images {
+  left: -6840px;
+}
+
+.gallery #ind-11:checked ~ .gallery-images {
+  left: -7600px;
+}
+
+.gallery #ind-12:checked ~ .gallery-images {
+  left: -8360px;
+}
+
+.gallery #ind-13:checked ~ .gallery-images {
+  left: -9120px;
+}
+
+.gallery #ind-14:checked ~ .gallery-images {
+  left: -9880px;
+}
+
+.gallery #ind-15:checked ~ .gallery-images {
+  left: -10640px;
+}
+#credit
+ {
+         font-family: chiller; 
+         font-size: 20pt;
+         font-weight: bold;		 
+		 text-align: center; 
+		 color: #2E2E2E;
+}
+
